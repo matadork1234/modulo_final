@@ -1,0 +1,22 @@
+{
+  "name": "app_store",
+  "version": "1.0.0",
+  "description": "App de ventas",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon ./src/index.js",
+    "start:prod": "node ./src/index.js"
+  },
+  "author": "Sergio Omar Sandy Cordova",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
